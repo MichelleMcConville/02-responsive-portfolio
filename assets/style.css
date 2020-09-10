@@ -1,3 +1,59 @@
+body {
+  background: url("colorful-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html {
+  -webkit-tap-highlight-color: pink;
+}
+
 .navbar {
   background-color: #563d7c;
+}
+
+#nav-image {
+  height: 30px;
+  font-weight: 30px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-dark .navbar-toggler {
+  color: hotpink;
+  border-color: hotpink;
+  padding: 0;
+}
+
+hr {
+  border: 1px solid azure;
+  margin-bottom: 15px;
+}
+
+h1, p {
+  color: azure;
+}
+
+p {
+  font-size: 30px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+.col-lg-10 {
+  background-color: pink;
+  margin: 0px 15px;
+  margin-top: 15px;
+  padding: 0px 25px;
+  width: 88.33%;
+}
+
+#mchel-img {
+  float: left;
+  margin-right: 20px;
+  margin-trim: 12px;
 }
