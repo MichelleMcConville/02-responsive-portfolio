@@ -1,3 +1,7 @@
+/************************/
+/*      Index Page      */
+/************************/
+
 body {
   background: url("colorful-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -15,8 +19,8 @@ html {
 }
 
 #nav-image {
-  height: 30px;
-  font-weight: 30px;
+  height: 2rem;
+  font-weight: 2rem;
 }
 
 .navbar {
@@ -31,29 +35,54 @@ html {
 
 hr {
   border: 1px solid azure;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
-h1, p {
+h1, article p {
   color: azure;
+  padding-top: .5rem;
 }
 
-p {
+article p {
   font-size: 30px;
   text-align: justify;
-  margin-bottom: 25px;
+  margin-bottom: 1.5rem;
 }
 
-.col-lg-10 {
+.col-lg-10,
+.col-lg-3 {
   background-color: pink;
-  margin: 0px 15px;
-  margin-top: 15px;
-  padding: 0px 25px;
+  margin: 0 1rem;
+  margin-top: 1rem;
+  padding: 0 2rem;
   width: 88.33%;
+  -webkit-border-radius: .5rem;
 }
 
 #mchel-img {
   float: left;
-  margin-right: 20px;
-  margin-trim: 12px;
+  margin: 1rem 1.5rem 0 0;
+}
+
+/************************/
+/*     Contact Page     */
+/************************/
+
+
+
+/************************/
+/*    Portfolio Page    */
+/************************/
+
+.avatar {
+
+}
+
+.card {
+  margin: 2rem;
+}
+
+/*    trying to figure out how to get gradient background color   */
+.card-up {
+  background-color: aqua-gradient;
 }
