@@ -12,20 +12,49 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/style.css">
+    
 
 </head>
 
+<header>
+  
+  <nav class="navbar navbar-dark sticky-top">
+
+    <a class="navbar-brand" href="#">
+      <img src="./assets/m-image.png" id="nav-iMage" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <section class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="./index.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li> 
+      </ul>
+    </section>
+  </nav>
+
+</header>
+
 <main>
+
+<!-- This will contain form for contact me -->
+<!-- Need to fix my footer to the bottom of visual screen & not the bottom of form -->
 
   <section class="col-lg-3">
 
   <h1>Contact Me</h1><hr>
 
   <form action="/action_page.php">
+    
     <div class="form-group">
       <label for="name">Name:</label>
-      <input type="password" class="form-control" id="name" placeholder="Enter Name" name="name">
+      <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
     </div>
 
     <div class="form-group">
@@ -34,8 +63,8 @@
     </div>
 
     <div class="form-group">
-      <label for="exampleFormControlTextarea1">Message:</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter Message" name="message"rows="3"></textarea>
+      <label for="textarea">Message:</label>
+      <textarea class="form-control" id="textarea" placeholder="Enter Message" name="message"rows="3"></textarea>
     </div>
 
     <button type="submit" class="btn btn-primary mb-2">Submit</button>
@@ -43,9 +72,15 @@
   </form>
 
   </section>
-      
-
 
 </main>
+
+<footer>
+  <div class="socialMedia"></div>
+    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+</footer>
 
 </html>

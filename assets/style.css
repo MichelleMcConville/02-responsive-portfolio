@@ -1,4 +1,55 @@
 /************************/
+/*        Header        */
+/************************/
+
+.navbar {
+  background-color: #563d7c;
+}
+
+#nav-iMage {
+  height: 2rem;
+  font-weight: 2rem;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-dark .navbar-toggler {
+  color: hotpink;
+  border-color: hotpink;
+  padding: 0;
+}
+
+/************************/
+/*        Footer        */
+/************************/
+
+footer {
+  background-color: #563d7c;
+  color: azure;
+  font-size: 30px;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+footer > p {
+
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 .5rem;
+}
+
+.socialMedia {
+  display: inline-block;
+  padding: 0 .5rem;
+  font-size: 30px;
+}
+
+/************************/
 /*      Index Page      */
 /************************/
 
@@ -14,24 +65,6 @@ html {
   -webkit-tap-highlight-color: pink;
 }
 
-.navbar {
-  background-color: #563d7c;
-}
-
-#nav-image {
-  height: 2rem;
-  font-weight: 2rem;
-}
-
-.navbar {
-  width: 100%;
-}
-
-.navbar-dark .navbar-toggler {
-  color: hotpink;
-  border-color: hotpink;
-  padding: 0;
-}
 
 hr {
   border: 1px solid azure;
@@ -65,12 +98,6 @@ article p {
 }
 
 /************************/
-/*     Contact Page     */
-/************************/
-
-
-
-/************************/
 /*    Portfolio Page    */
 /************************/
 
@@ -86,3 +113,27 @@ article p {
 .card-up {
   background-color: aqua-gradient;
 }
+
+
+/************************/
+/*     Contact Page     */
+/************************/
+
+
+
+/************************/
+/*        @Media        */
+/************************/
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #333;
+  }
+}
+
