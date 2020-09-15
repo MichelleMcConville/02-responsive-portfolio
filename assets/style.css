@@ -25,15 +25,24 @@ html {
 
 .navbar {
   background-color: #563d7c;
+  width: 100%;
 }
+
+#current {
+  background-color: hotpink;
+  color: black;
+  font-weight: 700;
+  -webkit-border-radius: .5rem;
+}
+
+/* Can the below done in CSS and not HTML */
+/* #collapsibleNavbar {
+ justify-content: end;
+} */
 
 #nav-iMage {
   height: 2rem;
   font-weight: 2rem;
-}
-
-.navbar {
-  width: 100%;
 }
 
 .navbar-dark .navbar-toggler {
@@ -94,6 +103,8 @@ article p {
 #mchel-img {
   float: left;
   margin: .4rem 1.5rem 0 0;
+  width: 310px;
+  
 }
 
 /************************/
@@ -133,6 +144,7 @@ label {
   .col-lg-6,
   .col-lg-4 {
     background-color: rgb(57, 114, 79);
+    /* display: flex; */
   }
 
   .btn {
