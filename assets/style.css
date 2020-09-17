@@ -1,20 +1,20 @@
 body {
-  background: url("colorful-bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("colorful-bg.jpg") no-repeat center fixed;
   background-size: cover;
-  margin: auto;
+  /* display: flex; */
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
 }
 
 html {
-  -webkit-tap-highlight-color: pink;
+  height: 100%;
 }
 
-.col-lg-6,
-.col-lg-4 {
+.col-6 {
   background-color: rgb(212, 166, 174);
-  margin: 1rem auto;
+  margin: 1rem auto 1rem;
+  max-width: 60%;
   padding: 0 1rem 1rem;
   -webkit-border-radius: .5rem;
 }
@@ -24,8 +24,13 @@ html {
 /************************/
 
 .navbar {
-  background-color: #563d7c;
-  width: 100%;
+  background-color: #9672cc;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: hotpink;
+  color: hotpink;
+  padding: 0;
 }
 
 #current {
@@ -35,88 +40,62 @@ html {
   -webkit-border-radius: .5rem;
 }
 
-/* Can the below done in CSS and not HTML */
-/* #collapsibleNavbar {
- justify-content: end;
-} */
-
 #nav-iMage {
-  height: 2rem;
   font-weight: 2rem;
-}
-
-.navbar-dark .navbar-toggler {
-  color: hotpink;
-  border-color: hotpink;
-  padding: 0;
-}
-
-/************************/
-/*        Footer        */
-/************************/
-
-footer {
-  background-color: #563d7c;
-  color: azure;
-  font-size: 30px;
-  padding: .5rem 1rem;
-  text-align: center;
-}
-
-.fa {
-  color: azure;
-}
-
-li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 0 .5rem;
-}
-
-.socialMedia {
-  display: inline-block;
-  font-size: 30px;
-  padding: 0 .5rem;
+  height: 2rem;
 }
 
 /************************/
 /*      Index Page      */
 /************************/
 
+article > p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0;
+  text-align: justify;
+}
+
+h1, article > p {
+  color: azure;
+  padding-top: .5rem;
+}
+
 hr {
   border: 1px solid azure;
   margin-bottom: 1rem;
 }
 
-h1, article p {
-  color: azure;
-  padding-top: .5rem;
-}
-
-article p {
-  font-size: 1rem;
-  text-align: justify;
-  margin-bottom: 1rem;
-  padding-top: 0;
-}
-
 #mchel-img {
   float: left;
   margin: .4rem 1.5rem 0 0;
-  width: 310px;
-  
+  width: 300px;
 }
 
 /************************/
 /*    Portfolio Page    */
 /************************/
 
-.card {
-  margin: 1rem;
+.card-img-top {
+  border-radius: .5rem .5rem 0 0;
 }
 
-.col {
+.card-text > p {
+  color: #212529;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 1.2rem;
+  grid-template-columns: auto auto;
+  padding: 1rem 0 0;
+  -webkit-border-radius: .5rem;
+}
+.grid-item {
+  background-color: whitesmoke;
+  font-size: 16px;
   padding: 0;
+  -webkit-border-radius: .5rem;
 }
 
 /* trying to figure out how to use gradient color */
@@ -126,8 +105,8 @@ article p {
 /************************/
 
 label {
-  font-weight: 700;
   color: black;
+  font-weight: 700;
 }
 
 .btn {
@@ -137,14 +116,65 @@ label {
 }
 
 /************************/
+/*        Footer        */
+/************************/
+
+footer {
+  background-color: #261a36;
+  bottom: 0;
+  clear: both;
+  color: azure;
+  font-size: 15px;
+  left: 0;
+  padding: 1rem 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 .5rem;
+}
+
+.col-md-4 {
+  width: 100%;
+}
+
+.fa {
+  color: azure;
+}
+
+.flex-container {
+  border: 1px solid hotpink;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: .5rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.flex-container > div {
+  border: 1px solid hotpink;
+  margin: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.socialMedia {
+  display: inline-block;
+  justify-content: space-around;
+  padding: 0 .5rem;
+}
+
+/************************/
 /*        @Media        */
 /************************/
 
 @media screen and (max-width: 768px) {
-  .col-lg-6,
-  .col-lg-4 {
-    background-color: rgb(57, 114, 79);
-    /* display: flex; */
+  label {
+    color: black;
+    font-weight: 700;
   }
 
   .btn {
@@ -153,16 +183,31 @@ label {
     font-weight: bolder;
   }
 
-  label {
-    font-weight: 700;
-    color: black;
+  .col-6 {
+    background-color: rgb(57, 114, 79);
+    max-width: 100%;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    padding-left: 7px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   }
+
+  .flex-container > div {
+    /* justify-content: center; */
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .col-lg-6,
-  .col-lg-4 {
-    background-color: rgb(75, 69, 69);
+  label {
+    color: hotpink;
+    font-weight: 700;
   }
 
   .btn {
@@ -171,9 +216,12 @@ label {
     font-weight: bolder;
   }
 
-  label {
-    font-weight: 700;
-    color: hotpink;
+  .col-6 {
+    background-color: rgb(75, 69, 69);
+  }
+
+  .grid-container {
+    grid-template-columns: auto;
   }
 }
 

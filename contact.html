@@ -21,7 +21,7 @@
   
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand">
       <img src="./assets/m-image.png" id="nav-iMage" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
     </a>
 
@@ -40,46 +40,40 @@
 
 </header>
 
-<main>
-
-<!-- This will contain form for contact me -->
-<!-- Need to fix my footer to the bottom of visual screen & not the bottom of form -->
-
-  <section class="col-lg-6">
+<main class="page-wrapper">
+  <section class="col-6" id="contactMe">
 
   <h1>Contact Me</h1><hr>
 
   <form action="/action_page.php">
     
-    <div class="form-group">
+    <form class="form-group">
       <label for="name">Name:</label>
       <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
-    </div>
+    </form>
 
-    <div class="form-group">
+    <form class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter eMail" name="email">
-    </div>
+    </form>
 
-    <div class="form-group">
+    <form class="form-group">
       <label for="textarea">Message:</label>
       <textarea class="form-control" id="textarea" placeholder="Enter Message" name="message"rows="3"></textarea>
-    </div>
+    </form>
 
     <button type="submit" class="btn mb-2">Submit</button>
 
   </form>
 
   </section>
-
 </main>
 
-<footer>
-  <div class="socialMedia"></div>
-    <li><a href="https://www.linkedin.com/in/mchelmcconvillekc/"><i class="fa fa-linkedin"></i></a></li>
-    <li><a href="https://www.facebook.com/michelle.l.mcconville"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="https://www.instagram.com/mchelmconvl/"><i class="fa fa-instagram"></i></a></li>
-    <li><a href="https://twitter.com/MchelMconvl"><i class="fa fa-twitter"></i></a></li>
+<footer class="socialMedia">
+  <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+  <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
 </footer>
 
 </html>
