@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 
     <!-- Bring in all stylesheets -->
     <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -18,7 +19,8 @@
 </head>
 
 <header>
-  
+
+   <!-- Created navbar w/ sticky top & collapsible in table & mobile sizes -->
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 
     <a class="navbar-brand">
@@ -41,6 +43,7 @@
 
 </header>
 
+<!-- Created main "Portfolio" section using grid w/ cards & links -->
 <main class="page-wrapper">
   <section class="col-6" id="portfolio">
     <section class="grid-container">
@@ -93,11 +96,42 @@
   </section>
 </main>
 
-<footer class="socialMedia">
-  <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-  <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-  <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+<!-- Created footer w/ 3 flex sections -->
+<footer>
+
+  <div class="flex-container">
+
+    <!-- Created right section footer w/ barcode name -->
+    <div class="footer-about col-md-4">
+      <div>Michelle</div>
+    </div>
+
+    <!-- Created middle section footer w/ quick links to technologies -->
+    <div class="footer-links col-md-4">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="https://www.adobe.io/apis/experiencecloud/aem.html" target="_blank">AEM</a></li>
+        <li><a href="https://www.atlassian.com/software/jira">JIRA</a></li>
+        <li><a href="https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration">Sharepoint</a></li>
+      </ul>
+    </div>
+
+    <!-- Created left section footer w/ social links & contact info -->
+    <div class="footer-social col-md-4">
+      <span><i class="fa fa-phone"></i> &nbsp; 123-456-7890</span><br>
+      <span><i class="fa fa-envelope"></i> &nbsp; mchelmconvl@gmail.com</span><br><hr>
+      <ul>
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Created copyright section -->
+  &copy; "website" | Designed by Me
 </footer>
 
 </html>
