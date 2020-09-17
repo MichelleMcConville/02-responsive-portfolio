@@ -1,9 +1,9 @@
 # Responsive- Portfolio
 
 ## Customer Request
-For this project the customer request that we 
+For this project the customer request we 
 
-1. Build a portfolio meets accessibility standards
+1. Build a portfolio which meets accessibility standards
 2. Use bootstrap CSS Framework
 3. Create the following pages
     - index.html
@@ -23,19 +23,17 @@ For this project the customer request that we
     - *Add a sticky footer w/ sub-rows & columns
 ---
 
-## Changes
+## Site Pages Created
+
 
 ### *.html
 - Created index.html file
 - Created portfolio.html file
 - Created contact.html file
-- tbd
 
 ### style.css
 - Created style.css file
 - Added `html5doctor.com Reset Style Sheet` by [Richard Clark](http://richclarkdesign.com)
-- tbd
-- tbd
 ---
 
 ## Sources Referenced 
