@@ -23,6 +23,13 @@ main {
   -webkit-border-radius: .3rem;
 }
 
+.navbar-brand {
+  color: azure;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /************************/
 /*      Navbar Top      */
 /************************/
@@ -45,7 +52,7 @@ main {
 }
 
 #nav-iMage {
-  font-weight: 2rem;
+  /* font-weight: 600; */
   height: 2rem;
 }
 
@@ -55,7 +62,7 @@ main {
 
 p {
   color: azure;
-  font-family: 'Yatra One', cursive;
+  /* font-family: 'Yatra One', cursive; */
   font-size: 1rem;
   margin-bottom: 1rem;
   padding-top: 0;
@@ -64,7 +71,7 @@ p {
 
 h1 {
   color: azure;
-  font-family: 'Yatra One', cursive;
+  /* font-family: 'Yatra One', cursive; */
   padding-top: 1rem;
 }
 
@@ -129,17 +136,16 @@ label {
 /************************/
 /*      Footer Nav      */
 /************************/
-
-.navbar-brand {
+.navbar-brand-bottom {
   color: azure;
-  font-size: 1rem;
-  margin: 0 auto;
-  text-align: center;
+  margin: auto;
 }
 
 #nav-bottom {
   background-color: #2b213b;
+  font-size: 1rem;
 }
+
 
 /* footer {
   background-color: #261a36;
