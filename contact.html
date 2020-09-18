@@ -9,7 +9,8 @@
     <!-- Bring in all stylesheets -->
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -20,9 +21,8 @@
 
 <header>
 
-   <!-- Created navbar w/ sticky top & collapsible in table & mobile sizes -->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-
+  <!-- Created navbar w/ sticky top & collapsible in table & mobile sizes -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <a class="navbar-brand">
       <img src="./assets/m-image.png" id="nav-iMage" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
     </a>
@@ -42,72 +42,44 @@
 
 </header>
 
-<!-- Created main "Contact" form page -->
-<main class="page-wrapper">
-  <section class="col-6" id="contactMe">
+<!-- Created main "Contact" page form page -->
+<main class="container">
+  <div class="row">
+    <section class="col-12" id="contactMe">
 
-  <h1>Contact Me</h1><hr>
+      <h1>Contact Me</h1><hr>
 
-  <form action="/action_page.php">
-    
-    <form class="form-group">
-      <label for="name">Name:</label>
-      <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
-    </form>
+      <form action="/action_page.php">
+      
+        <form class="form-group">
+          <label for="name">Name:</label>
+          <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+        </form>
 
-    <form class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter eMail" name="email">
-    </form>
+        <form class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter eMail" name="email">
+        </form>
 
-    <form class="form-group">
-      <label for="textarea">Message:</label>
-      <textarea class="form-control" id="textarea" placeholder="Enter Message" name="message"rows="3"></textarea>
-    </form>
+        <form class="form-group">
+          <label for="textarea">Message:</label>
+          <textarea class="form-control" id="textarea" placeholder="Enter Message" name="message"rows="3"></textarea>
+        </form>
 
-    <button type="submit" class="btn mb-2">Submit</button>
+        <button type="submit" class="btn mb-2">Submit</button>
 
-  </form>
+      </form>
 
-  </section>
+    </section>
+  </div>
 </main>
 
-<!-- Created footer w/ 3 flex sections -->
+<!-- Created footer -->
 <footer>
-
-  <div class="flex-container">
-
-    <!-- Created right section footer w/ barcode name -->
-    <div class="footer-about col-md-4">
-      <div>Michelle</div>
-    </div>
-
-    <!-- Created middle section footer w/ quick links to technologies -->
-    <div class="footer-links col-md-4">
-      <h2>Quick Links</h2>
-      <ul>
-        <li><a href="https://www.adobe.io/apis/experiencecloud/aem.html" target="_blank">AEM</a></li>
-        <li><a href="https://www.atlassian.com/software/jira">JIRA</a></li>
-        <li><a href="https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration">Sharepoint</a></li>
-      </ul>
-    </div>
-
-    <!-- Created left section footer w/ social links & contact info -->
-    <div class="footer-social col-md-4">
-      <span><i class="fa fa-phone"></i> &nbsp; 123-456-7890</span><br>
-      <span><i class="fa fa-envelope"></i> &nbsp; mchelmconvl@gmail.com</span><br><hr>
-      <ul>
-        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Created copyright section -->
-  &copy; "website" | Designed by Me
+  <nav class="navbar sticky-bottom" id="nav-bottom">
+    <a class="navbar-brand">&copy; | Designed by Me</a>
+  </nav>
 </footer>
+
 
 </html>

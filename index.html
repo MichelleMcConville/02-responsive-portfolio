@@ -9,7 +9,8 @@
     <!-- Bring in all stylesheets -->
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -21,84 +22,47 @@
 <header>
 
   <!-- Created navbar w/ sticky top & collapsible in table & mobile sizes -->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <a class="navbar-brand">
-      <img src="./assets/m-image.png" id="nav-iMage" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
+      <img id="nav-iMage" src="./assets/m-image.png" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end">
       <ul class="navbar-nav">
-        <li><a class="nav-link" id="current" href="./index.html">About</a></li>
+        <li><a id="current" class="nav-link" href="./index.html">About</a></li>
         <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
         <li><a class="nav-link" href="./contact.html">Contact</a></li>    
       </ul>
     </div>
-    
   </nav>
 
 </header>
 
-<!-- Created main "About Me" section w/ photo & text -->
-<main>
-  <section class="col-6" id="aboutMe">
+<!-- Created main "About Me" page w/ photo & text -->
+<main class="container">
+  <div class="row">
+    <section id="aboutMe" class="col-12">
+     <h1>About Me</h1><hr>
+  
+     <img id="mchel-img" class="img-thumbnail" src="./assets/heyMe.png" alt="image of me">
 
-    <h1>About Me</h1><hr>
+       <p>Bacon ipsum dolor amet flank pork filet mignon, sausage kielbasa kevin tongue frankfurter landjaeger meatloaf. Short ribs spare ribs venison picanha tongue rump, pancetta ham turkey corned beef strip steak filet mignon chicken. Drumstick pig rump jerky chicken meatloaf tri-tip tail. Turducken ground round pork chop boudin. Sirloin chuck prosciutto ribeye beef ribs venison spare ribs fatback shank tenderloin porchetta. Sausage bacon ribeye, ham hock tail cow pork.</p>
+       <p>Buffalo brisket rump ham hock. Kevin spare ribs tri-tip bresaola, strip steak leberkas tongue ball tip picanha sausage pork loin hamburger porchetta. Capicola flank short ribs fatback jerky short loin andouille chislic filet mignon ribeye ground round. Chislic pancetta bresaola corned beef, andouille fatback sirloin bacon beef ribs biltong short ribs kielbasa sausage venison jerky. Ground round short loin filet mignon ham tri-tip cow sirloin swine beef ribs pancetta. Picanha buffalo salami shoulder, strip steak fatback spare ribs filet mignon turducken kevin pork chop. Doner t-bone salami chislic fatback strip steak.</p>
+       <p>Salami prosciutto beef ribs strip steak pork kevin, frankfurter venison turducken bacon swine beef. Bacon ham andouille pork, shankle shank buffalo jowl spare ribs. Strip steak rump flank chicken, ham hock ham tail bacon sausage hamburger. Spare ribs jerky biltong sirloin corned beef brisket short ribs pastrami tenderloin. Alcatra andouille bacon beef leberkas doner t-bone ham short loin, tongue picanha.</p>
 
-    <img class="img-thumbnail" id="mchel-img" src="./assets/heyMe.png" alt="image of me">
-
-    <article>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Ut blandit diam non turpis laoreet tempor. Suspendisse consequat vestibulum eros et dignissim. In tristique, augue gravida consectetur consequat, tellus est tincidunt velit, eu ultricies augue odio id lacus. Donec ac ligula sit amet nisi pellentesque congue a blandit orci. Nullam a vestibulum leo, feugiat condimentum ex. Morbi ante metus, venenatis cursus gravida a, lacinia et nunc</p>
-        
-      <p>Sed ac blandit mi, eget vestibulum velit. Vestibulum nulla ligula, semper ut risus nec, blandit finibus ex. Aliquam eget semper quam. Vestibulum vel sapien sapien. Nullam quis justo convallis, imperdiet mi a, malesuada mauris. Donec ultrices nibh sed ante bibendum, lacinia tempor nisi dignissim. In porta tristique fermentum. Vivamus luctus ligula nec pulvinar finibus. Phasellus et massa efficitur odio luctus elementum. Duis a lectus metus. Praesent nisi nisi, mollis sed mollis ut, sagittis eget lacus. Vivamus sollicitudin interdum purus, sit amet porta dui faucibus nec. Phasellus fringilla tempus nunc, ac vestibulum augue lobortis sit amet. Nunc porta libero placerat turpis laoreet, quis pharetra quam placerat.</p>
-        
-      <p>Aliquam libero magna, volutpat sit amet eleifend a, egestas ac lorem. In ornare ex risus, viverra imperdiet felis egestas ut. Nullam leo est, euismod eu congue at, sagittis at dui. Donec turpis ante, luctus non venenatis eu, molestie eget libero. Nullam a ante id arcu facilisis consectetur. Phasellus tempus quam non felis maximus, eget tempus urna laoreet. Integer eu felis eget eros rutrum vehicula nec in lectus. Sed dictum est sit amet risus facilisis fringilla. Nam vel mauris quis turpis suscipit ullamcorper vel vel eros. Pellentesque iaculis neque et quam sollicitudin, at faucibus mi consequat. In erat nibh, dignissim in ante in, maximus euismod dolor.</p>
-    </article>
-
-  </section>
+    </section>
+  </div>
 </main>
 
-<!-- Created footer w/ 3 flex sections -->
+<!-- Created footer -->
 <footer>
-
-    <div class="flex-container">
-
-      <!-- Created right section footer w/ barcode name -->
-      <div class="footer-about col-md-4">
-        <div>Michelle</div>
-      </div>
-
-      <!-- Created middle section footer w/ quick links to technologies -->
-      <div class="footer-links col-md-4">
-        <h2>Quick Links</h2>
-        <ul>
-          <li><a href="https://www.adobe.io/apis/experiencecloud/aem.html" target="_blank">AEM</a></li>
-          <li><a href="https://www.atlassian.com/software/jira">JIRA</a></li>
-          <li><a href="https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration">Sharepoint</a></li>
-        </ul>
-      </div>
-
-      <!-- Created left section footer w/ social links & contact info -->
-      <div class="footer-social col-md-4">
-        <span><i class="fa fa-phone"></i> &nbsp; 123-456-7890</span><br>
-        <span><i class="fa fa-envelope"></i> &nbsp; mchelmconvl@gmail.com</span><br><hr>
-        <ul>
-          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
-        </ul>
-      </div>
-    </div>
-
-  <!-- Created copyright section -->
-  &copy; "website" | Designed by Me
+  <nav id="nav-bottom" class="navbar sticky-bottom">
+    <a class="navbar-brand">&copy; | Designed by Me</a>
+  </nav>
 </footer>
-
 
 </html>

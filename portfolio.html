@@ -21,20 +21,20 @@
 <header>
 
    <!-- Created navbar w/ sticky top & collapsible in table & mobile sizes -->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
     <a class="navbar-brand">
-      <img src="./assets/m-image.png" id="nav-iMage" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
+      <img id="nav-iMage" src="./assets/m-image.png" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end">
       <ul class="navbar-nav">
         <li><a class="nav-link" href="./index.html">About</a></li>
-        <li><a class="nav-link" id="current" href="./portfolio.html">Portfolio</a></li>
+        <li><a id="current" class="nav-link" href="./portfolio.html">Portfolio</a></li>
         <li><a class="nav-link" href="./contact.html">Contact</a></li>  
       </ul>
     </div>
@@ -44,94 +44,63 @@
 </header>
 
 <!-- Created main "Portfolio" section using grid w/ cards & links -->
-<main class="page-wrapper">
-  <section class="col-6" id="portfolio">
-    <section class="grid-container">
-      
-      <article class="grid-item">
-        <a href="https://michellemcconville.github.io/MichelleMcConville/" target="_blank">
-          <img src="./assets/mainGithub.png" class="card-img-top" alt="...">
-        </a>
-          <figcaption class="card-body">
-            <h5 class="card-title">Portfolio #1</h5>
-            <h6>My Personal GitHub</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
-          </figcaption>
-      </article>
-        
-      <article class="grid-item">
-        <a href="https://michellemcconville.github.io/01-seo-refactor/" target="_blank">
-          <img src="./assets/horiseonSite.png" class="card-img-top" alt="...">
-        </a>
-          <figcaption class="card-body">
-            <h5 class="card-title">Portfolio #2</h5>
-            <h6>Horiseon Refractor</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
-          </figcaption>
-      </article>
+<main>
 
-      <article class="grid-item">
-        <a href="https://michellemcconville.github.io/elephants/" target="_blank">
-          <img src="./assets/elephants.png" class="card-img-top" alt="...">
-        </a>
-          <figcaption class="card-body">
-            <h5 class="card-title">Portfolio #3</h5>
-            <h6>Elephants</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
-          </figcaption>
-      </article>
+  <div class="container">
+    <div id="portfolio" class="row">
+      <div id="portfolio" class="col-12">
+        <h1>Portfolio</h1><hr>
+        <div class="grid-container">
 
-      <article class="grid-item">
-        <a href="https://www.google.com/" target="_blank">
-          <img src="./assets/m-image.png" class="card-img-top" alt="...">
-        </a>
-          <figcaption class="card-body">
-            <h5 class="card-title">Portfolio #4</h5>
-            <h6>"TBD" - Temp Link to Google</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
-          </figcaption>
-      </article>
-        
-    </section>
-  </section>
-</main>
+            <div class="card-grid-item">
+              <a href="https://michellemcconville.github.io/MichelleMcConville/" target="_blank"><img src="https://placehold.it/320" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio #1</h5>
+                  <h6>My Personal GitHub</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
+                </div>
+            </div>
 
-<!-- Created footer w/ 3 flex sections -->
-<footer>
+            <div class="card-grid-item">
+              <a href="https://michellemcconville.github.io/01-seo-refactor/" target="_blank"><img src="https://placehold.it/320" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio #2</h5>
+                  <h6>Horiseon Refractor</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
+               </div>
+            </div>
 
-  <div class="flex-container">
+            <div class="card-grid-item">
+              <a href="https://michellemcconville.github.io/elephants/" target="_blank"><img src="https://placehold.it/320" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio #3</h5>
+                  <h6>Elephants</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
+                </div>
+            </div>
 
-    <!-- Created right section footer w/ barcode name -->
-    <div class="footer-about col-md-4">
-      <div>Michelle</div>
-    </div>
+            <div class="card-grid-item">
+              <a href="https://www.google.com/" target="_blank"><img src="https://placehold.it/320" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio #4</h5>
+                  <h6>Temp to Google</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
+                </div>
+            </div>
 
-    <!-- Created middle section footer w/ quick links to technologies -->
-    <div class="footer-links col-md-4">
-      <h2>Quick Links</h2>
-      <ul>
-        <li><a href="https://www.adobe.io/apis/experiencecloud/aem.html" target="_blank">AEM</a></li>
-        <li><a href="https://www.atlassian.com/software/jira">JIRA</a></li>
-        <li><a href="https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration">Sharepoint</a></li>
-      </ul>
-    </div>
+          </div>
 
-    <!-- Created left section footer w/ social links & contact info -->
-    <div class="footer-social col-md-4">
-      <span><i class="fa fa-phone"></i> &nbsp; 123-456-7890</span><br>
-      <span><i class="fa fa-envelope"></i> &nbsp; mchelmconvl@gmail.com</span><br><hr>
-      <ul>
-        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
-      </ul>
+      </div>
     </div>
   </div>
+    
+</main>
 
-  <!-- Created copyright section -->
-  &copy; "website" | Designed by Me
+<!-- Created footer -->
+<footer>
+  <nav id="nav-bottom" class="navbar sticky-bottom">
+    <a class="navbar-brand">&copy; | Designed by Me</a>
+  </nav>
 </footer>
 
 </html>
