@@ -1,25 +1,17 @@
 body {
-  background: url("colorful-bg.jpg") no-repeat center fixed;
+  background: url("watercolour2.jpg") no-repeat center fixed;
   background-size: cover;
-  /* display: flex; */
-  /* flex-direction: column; */
-  height: 100%;
-  margin: 0;
-}
-
-html {
-  height: 100%;
+  line-height: 1;
 }
 
 main {
   margin-top: 3.625rem;
 }
 
-.col-12 {
+.col {
   background-color: rgb(212, 166, 174);
-  height: 100%;
   margin: 1rem auto 2rem;
-  padding: 0 1rem 1rem;
+  padding: 0 1rem 0 1rem;
   -webkit-border-radius: .3rem;
 }
 
@@ -27,7 +19,6 @@ main {
   color: azure;
   font-size: 1.3rem;
   margin: 0 auto;
-  text-align: center;
 }
 
 /************************/
@@ -51,9 +42,14 @@ main {
   -webkit-border-radius: .3rem;
 }
 
-#nav-iMage {
-  /* font-weight: 600; */
+#nav-image {
   height: 2rem;
+}
+
+#nav-top.navbar-brand {
+  float: left;
+  margin: 0;
+  width: 300px;
 }
 
 /************************/
@@ -62,8 +58,7 @@ main {
 
 p {
   color: azure;
-  /* font-family: 'Yatra One', cursive; */
-  font-size: 1rem;
+  font-size: 20px;
   margin-bottom: 1rem;
   padding-top: 0;
   text-align: justify;
@@ -71,7 +66,6 @@ p {
 
 h1 {
   color: azure;
-  /* font-family: 'Yatra One', cursive; */
   padding-top: 1rem;
 }
 
@@ -79,22 +73,26 @@ hr {
   border: 1px solid azure;
 }
 
-#mchel-img {
-  float: left;
-  margin: .4rem 1.2rem 0 .0;
-  width: 300px;
+#aboutMe-img {
+    margin: .4rem 1.2rem 0 .0;
 }
 
 /************************/
 /*    Portfolio Page    */
 /************************/
 
-.card-img-top {
-  border-radius: .3rem .3rem 0 0;
+p.card-text {
+  color: #212529;
+  font-size: 1rem;
 }
 
-.card-text > p {
-  color: #212529;
+.card {
+  background: transparent;
+ -webkit-border-radius: .3rem;
+}
+
+.card-deck {
+  margin-bottom: 1rem;
 }
 
 .card-body {
@@ -102,20 +100,8 @@ hr {
  -webkit-border-radius: 0 0 .3rem .3rem;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 1.2rem;
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  -webkit-border-radius: .3rem;
-}
-.card-grid-item {
-  /* background: linear-gradient(to bottom right, #33ccff 15%, #ff99cc 60%); */
-  font-size: 16px;
-  padding: 0;
-  -webkit-border-radius: .3rem;
+.card-img-top {
+  border-radius: .3rem .3rem 0 0;
 }
 
 /************************/
@@ -136,6 +122,7 @@ label {
 /************************/
 /*      Footer Nav      */
 /************************/
+
 .navbar-brand-bottom {
   color: azure;
   margin: auto;
@@ -145,72 +132,6 @@ label {
   background-color: #2b213b;
   font-size: 1rem;
 }
-
-
-/* footer {
-  background-color: #261a36;
-  bottom: 0;
-  clear: both;
-  color: azure;
-  font-size: 15px;
-  left: 0;
-  padding: 1rem 1rem;
-  text-align: center;
-  width: 100%;
-} */
-
-/* li, a {
-  color: hotpink;
-  display: inline-block;
-  list-style-type: none;
-  margin: 0 0 0 .5rem;
-  padding: 0 .5rem;
-} */
-
-/* .col-md-4 {
-  width: 100%;
-} */
-
-/* .fa {
-  color: azure;
-  font-size: 20px;
-} */
-
-/* .flex-container {
-  border: 1px solid hotpink;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: .5rem;
-  padding: 0 .5rem;
-  width: 100%;
-} */
-
-/* .flex-container > div {
-  border: 1px solid hotpink;
-  margin: 5px;
-  padding: 1rem;
-  text-align: center;
-} */
-
-/* footer > hr {
-  border: 1px solid blue;
-} */
-
-/* .footer-about.col-md-4 {
-  font-family: 'Libre Barcode 128 Text';
-  font-size: 50px;
-  text-align: left;
-} */
-
-/* .footer-social.col-md-4 {
-  text-align: right;
-} */
-
-/* .socialMedia {
-  display: inline-block;
-  justify-content: space-around;
-  padding: 0 .5rem;
-} */
 
 /************************/
 /*        @Media        */
@@ -228,38 +149,20 @@ label {
     font-weight: bolder;
   }
 
-  .col-12 {
+  .col {
     background-color: rgb(57, 114, 79);
     width: 100%;
   }
-
-  .grid-container {
-    flex-direction: column;
-    grid-template-columns: auto auto;
-    width: 100%;
-    padding-left: 7px;
-    padding-right: 16px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-   }
-
-  /* .flex-container > div {
-    width: 100%;
-  } */
-
-  /* .footer-about.col-md-4 {
-    text-align: center;
-  } */
-
-  /* .footer-social.col-md-4 {
-    text-align: center;
-  } */
-}
 
 @media screen and (max-width: 480px) {
   label {
     color: hotpink;
     font-weight: 700;
+  }
+
+  #aboutMe-img {
+    float: none;
+    margin: .4rem 1.2rem 1rem .0;
   }
 
   .btn {
@@ -268,17 +171,7 @@ label {
     font-weight: bolder;
   }
 
-  .col-12 {
+  .col {
     background-color: rgb(75, 69, 69);
   }
-
-  .grid-container {
-    grid-template-columns: auto;
-  }
-
-  #mchel-img {
-    float: none;
-    margin: .4rem 1.2rem 1rem .0;
-  }
 }
-
