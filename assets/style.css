@@ -56,14 +56,6 @@ main {
 /*      Index Page      */
 /************************/
 
-p {
-  color: azure;
-  font-size: 20px;
-  margin-bottom: 1rem;
-  padding-top: 0;
-  text-align: justify;
-}
-
 h1 {
   color: azure;
   padding-top: 1rem;
@@ -71,6 +63,14 @@ h1 {
 
 hr {
   border: 1px solid azure;
+}
+
+p {
+  color: azure;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  padding-top: 0;
+  text-align: justify;
 }
 
 #aboutMe-img {
@@ -91,18 +91,24 @@ p.card-text {
  -webkit-border-radius: .3rem;
 }
 
-.card-deck {
-  margin-bottom: 1rem;
-}
-
 .card-body {
   background: linear-gradient(to bottom right, #33ccff 15%, #ff99cc 60%);
  -webkit-border-radius: 0 0 .3rem .3rem;
 }
 
+.card-deck {
+  margin-bottom: 1rem;
+}
+
 .card-img-top {
   border-radius: .3rem .3rem 0 0;
 }
+
+.sub-title {
+  color: #2b213b;
+}
+
+.sub-title:hover {font-size: 125%;}
 
 /************************/
 /*     Contact Page     */
@@ -123,14 +129,35 @@ label {
 /*      Footer Nav      */
 /************************/
 
-.navbar-brand-bottom {
+.fa {
+  color: hotpink;
+  margin: 0 .5rem;
+}
+
+.footer-col {
+  background: transparent;
+  margin: 0%;
+  padding: 0;
+  width: 100%;
+}
+
+.footer-col > p {
   color: azure;
+  font-size: 1rem;
+  padding-bottom: .5rem;
   margin: auto;
+  text-align: center;
+}
+
+.footer-row {
+  text-align: center;
+  width: 100%;
 }
 
 #nav-bottom {
   background-color: #2b213b;
   font-size: 1rem;
+  padding: .5rem;
 }
 
 /************************/
@@ -154,15 +181,15 @@ label {
     width: 100%;
   }
 
+  .footer-col {
+    background: transparent;
+  }
+}
+
 @media screen and (max-width: 480px) {
   label {
     color: hotpink;
     font-weight: 700;
-  }
-
-  #aboutMe-img {
-    float: none;
-    margin: .4rem 1.2rem 1rem .0;
   }
 
   .btn {
@@ -173,5 +200,14 @@ label {
 
   .col {
     background-color: rgb(75, 69, 69);
+  }
+
+  .footer-col {
+    background: transparent;
+  }
+  
+  #aboutMe-img {
+    float: none;
+    margin: .4rem 1.2rem 1rem .0;
   }
 }

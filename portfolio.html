@@ -27,7 +27,7 @@
   <!-- Created navbar w/ brand & sticky top -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <a id="nav-top" class="navbar-brand">
-      <img id="nav-image" src="./assets/m-image.png" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
+      <img id="nav-image" src="./assets/m-image.png" class="d-inline-block align-top" alt="blue fiery letter m"> Michelle McConville
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -46,7 +46,7 @@
 
 </header>
 
-<!-- Created main "Portfolio" page w/ grid & cards -->
+<!-- Created main "Portfolio" page w/ cards & card-deck -->
 <main>
 
   <div class="container">
@@ -55,109 +55,71 @@
 
         <h1>Portfolio</h1><hr>
 
+        <!-- First row of the card deck with 3 cards (Each card linked to desirable -->
         <div class="card-deck">
+
           <div class="card">
-            <a href="https://michellemcconville.github.io/MichelleMcConville/" target="_blank"></a><img class="card-img-top" src="./assets/gitHubOctocat320.jpg" alt="My github account">
+            <a href="https://github.com/MichelleMcConville" target="_blank">
+              <img src="./assets/gitHubOctocat320.jpg" class="card-img-top" alt="my github account"></a>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">My GitHub</h5>
+              <p class="card-text">Click on image above to go to my personal GitHub account</p>
             </div>
           </div>
 
           <div class="card">
-            <a href="https://michellemcconville.github.io/01-seo-refactor/" target="_blank"><img src="./assets/digital-marketing-meeting.jpg" class="card-img-top" alt="Horiseon"></a>
+            <a href="https://michellemcconville.github.io/01-seo-refactor/" target="_blank">
+              <img src="./assets/digital-marketing-meeting.jpg" class="card-img-top" alt="horiseon"></a>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Horiseon</h5>
+              <p class="card-text">Click on image above to see work done for a customer to clean up their website HTML</p>
             </div>
           </div>
 
           <div class="card">
-            <a href="https://michellemcconville.github.io/elephants/" target="_blank"><img src="./assets/bookmarksDark.jpg" class="card-img-top" alt="Bookmarks"></a>
+            <a href="https://michellemcconville.github.io/bookmarks/" target="_blank">
+              <img src="./assets/bookmarksDark.jpg" class="card-img-top" alt="bookmarks"></a>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-          </div>
-        </div>
-     
-        <div class="card-deck">
-          <div class="card">
-            <a href="https://michellemcconville.github.io/MichelleMcConville/" target="_blank"></a><img class="card-img-top" src="./assets/gitHubOctocat320.jpg" alt="My github account">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Favorites Page</h5>
+              <a href="https://github.com/MichelleMcConville/bookmarks" target="_blank">
+              <h6 class="sub-title">Click to get code</h6></a>
+              <p class="card-text">A template to use for organizing all your bookmarked sites into a fun 1-page format!</p>
             </div>
           </div>
 
-          <div class="card">
-            <a href="https://michellemcconville.github.io/01-seo-refactor/" target="_blank"><img src="./assets/digital-marketing-meeting.jpg" class="card-img-top" alt="Horiseon"></a>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <a href="https://michellemcconville.github.io/elephants/" target="_blank"><img src="./assets/bookmarksDark.jpg" class="card-img-top" alt="Bookmarks"></a>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-          </div>
         </div>
 
-      </div>
-    </div>
+        <!-- Second row of the card deck with 3 cards (Each card linked to desirable -->
+        <div class="card-deck">
 
-        <!-- <div class="grid-container">
-
-          <div class="card-grid-item">
-            <a href="https://michellemcconville.github.io/MichelleMcConville/" target="_blank"><img src="./assets/gitHubOctocat320.jpg" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h4 class="card-title">Portfolio #1</h4>
-                <h6>My Personal GitHub</h6>
-                <p class="card-text">A link to my personal GitHub account</p>
-              </div>
+          <div class="card">
+            <a href="#" target="_blank"></a> <!-- don't forget to move closing a-tag when adding to this card -->
+              <img class="card-img-top" src="./assets/comingSoon320.jpg" alt="coming soon">
+            <div class="card-body">
+              <h5 class="card-title">Coming Soon</h5>
+              <p class="card-text">Bacon ipsum dolor amet sirloin chuck swine alcatra. Venison flank ribeye meatball pork, pork loin swine. Brisket meatloaf boudin chislic sirloin cupim, tri-tip chicken prosciutto landjaeger picanha biltong ham shankle.</p>
+            </div>
           </div>
 
-          <div class="card-grid-item">
-            <a href="https://michellemcconville.github.io/01-seo-refactor/" target="_blank"><img src="./assets/digital-marketing-meeting.jpg" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h4 class="card-title">Portfolio #2</h4>
-                <h6>Horiseon Refractor</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
-              </div>
+          <div class="card">
+            <a href="#" target="_blank"></a> <!-- don't forget to move closing a-tag when adding to this card -->
+              <img class="card-img-top" src="./assets/comingSoon320.jpg" alt="coming soon">
+            <div class="card-body">
+              <h5 class="card-title">Coming Soon</h5>
+              <p class="card-text">Bacon ipsum dolor amet sirloin chuck swine alcatra. Venison flank ribeye meatball pork, pork loin swine. Brisket meatloaf boudin chislic sirloin cupim, tri-tip chicken prosciutto landjaeger picanha biltong ham shankle.</p>
+            </div>
           </div>
 
-          <div class="card-grid-item">
-            <a href="https://michellemcconville.github.io/elephants/" target="_blank"><img src="./assets/bookmarksDark.jpg" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h4 class="card-title">Portfolio #3</h4>
-                <h6>Bookmarks Page</h6>
-                <p class="card-text">Link to a 1-page favorites that can be stored in each browser's bookmark bar.</p>
-              </div>
-          </div>
-
-          <div class="card-grid-item">
-            <a href="https://www.google.com/" target="_blank"><img src="./assets/comingSoon320.jpg" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h4 class="card-title">Portfolio #4</h4>
-                <h6>Temp to Google</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
-              </div>
-          </div>
-
-          <div class="card-grid-item">
-            <a href="https://www.google.com/" target="_blank"><img src="./assets/comingSoon320.jpg" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h4 class="card-title">Portfolio #5</h4>
-                <h6>Temp to Google</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium efficitur fermentum. Pellentesque gravida ut massa consectetur posuere.</p>
-              </div>
+          <div class="card">
+            <a href="#" target="_blank"></a> <!-- don't forget to move closing a-tag when adding to this card -->
+              <img class="card-img-top" src="./assets/comingSoon320.jpg" alt="coming soon">
+            <div class="card-body">
+              <h5 class="card-title">Coming Soon</h5>
+              <p class="card-text">Bacon ipsum dolor amet sirloin chuck swine alcatra. Venison flank ribeye meatball pork, pork loin swine. Brisket meatloaf boudin chislic sirloin cupim, tri-tip chicken prosciutto landjaeger picanha biltong ham shankle.</p>
+            </div>
           </div>
           
-        </div> -->
+        </div>
 
       </div>
     </div>
@@ -167,9 +129,25 @@
 
 <!-- Created sticky navbar footer -->
 <footer>
+
   <nav id="nav-bottom" class="navbar sticky-bottom">
-    <a class="navbar-brand-bottom">&copy; 2020 | Designed by Me</a>
+    <!-- <a class="navbar-brand-bottom"> &copy; 2020 | Designed by Me</a> -->
+    <div class="row footer-row">
+      <div class="col footer-col">
+        <p>&copy; 2020 | Designed by Me</p>
+      </div>
+    </div>
+      
+    <div class="row footer-row">
+      <div class="col footer-col">
+        <!-- Added font awesome social media icons -->
+        <a href="https://www.linkedin.com/in/mchelmcconvillekc/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://angel.co/u/michelle-mcconville" target="_blank"><i class="fa fa-angellist"></i></a>
+        <a href="mailto:mchelmconvl@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
   </nav>
+
 </footer>
 
 </body>
