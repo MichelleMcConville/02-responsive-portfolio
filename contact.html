@@ -19,33 +19,36 @@
 
 </head>
 
+<body>
+
+<!-- Created header w/ collapsible nav -->
 <header>
 
-  <!-- Created navbar w/ sticky top & collapsible in table & mobile sizes -->
+  <!-- Created navbar w/ brand & sticky top -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <a class="navbar-brand">
-      <img src="./assets/m-image.png" id="nav-iMage" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
+    <a id="nav-top" class="navbar-brand">
+      <img id="nav-image" src="./assets/m-image.png" class="d-inline-block align-top" alt="blue fiery letter M"> Michelle McConville
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end">
       <ul class="navbar-nav">
         <li><a class="nav-link" href="./index.html">About</a></li>
         <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-        <li><a class="nav-link" id="current" href="./contact.html">Contact</a></li> 
+        <li><a id="current" class="nav-link" href="./contact.html">Contact</a></li>    
       </ul>
     </div>
   </nav>
 
 </header>
 
-<!-- Created main "Contact" page form page -->
+<!-- Created main "Contact" page w/ form -->
 <main class="container">
   <div class="row">
-    <section class="col-12" id="contactMe">
+    <section id="contactMe" class="col">
 
       <h1>Contact Me</h1><hr>
 
@@ -53,17 +56,17 @@
       
         <form class="form-group">
           <label for="name">Name:</label>
-          <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+          <input type="name" id="name" class="form-control" placeholder="Enter Name" name="name">
         </form>
 
         <form class="form-group">
           <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter eMail" name="email">
+          <input type="email" id="email" class="form-control" placeholder="Enter eMail" name="email">
         </form>
 
         <form class="form-group">
           <label for="textarea">Message:</label>
-          <textarea class="form-control" id="textarea" placeholder="Enter Message" name="message"rows="3"></textarea>
+          <textarea id="textarea" class="form-control" placeholder="Enter Message" name="message"rows="3"></textarea>
         </form>
 
         <button type="submit" class="btn mb-2">Submit</button>
@@ -74,12 +77,13 @@
   </div>
 </main>
 
-<!-- Created footer -->
+<!-- Created sticky navbar footer -->
 <footer>
   <nav id="nav-bottom" class="navbar sticky-bottom">
-    <a class="navbar-brand-bottom">&copy; | Designed by Me</a>
+    <a class="navbar-brand-bottom">&copy; 2020 | Designed by Me</a>
   </nav>
 </footer>
 
+</body>
 
 </html>
