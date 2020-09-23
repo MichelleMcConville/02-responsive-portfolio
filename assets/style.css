@@ -59,7 +59,6 @@ main {
 #nav-top.navbar-brand {
   float: left;
   margin: 0;
-  /* width: 300px; */
 }
 
 /************************/
@@ -227,6 +226,7 @@ footer, .push {
   }
 }
 
+/* Future attempt to remove image from navbar on super small screens */
 /* @media screen and (max-width: 315px) {
     #nav-image {
     display: none;
