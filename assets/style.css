@@ -1,3 +1,8 @@
+html, body {
+  height: 96.5%;
+  margin: 0;
+}
+
 body {
   background: url("watercolour2.jpg") no-repeat center fixed;
   background-size: cover;
@@ -19,6 +24,11 @@ main {
   color: azure;
   font-size: 1.3rem;
   margin: 0 auto;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
 }
 
 /************************/
@@ -49,7 +59,7 @@ main {
 #nav-top.navbar-brand {
   float: left;
   margin: 0;
-  width: 300px;
+  /* width: 300px; */
 }
 
 /************************/
@@ -128,6 +138,10 @@ label {
 /************************/
 /*      Footer Nav      */
 /************************/
+
+footer, .push {
+  height: 50px;
+}
 
 .fa {
   color: hotpink;
@@ -209,5 +223,13 @@ label {
   #aboutMe-img {
     float: none;
     margin: .4rem 1.2rem 1rem .0;
+    width: 100%;
   }
 }
+
+/* @media screen and (max-width: 315px) {
+    #nav-image {
+    display: none;
+  }
+} */
+
