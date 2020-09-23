@@ -194,12 +194,23 @@ footer, .push {
   }
 
   .col {
-    background-color: rgb(57, 114, 79);
+    background-color: rgb(134, 196, 158);
     width: 100%;
   }
 
   .footer-col {
     background: transparent;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    clear: both;
+  }
+
+  #aboutMe-img {
+    float: none;
+    margin: .4rem 1.2rem 1rem .0;
   }
 }
 
@@ -209,6 +220,10 @@ footer, .push {
     font-weight: 700;
   }
 
+  p {
+    clear: both;
+  }
+
   .btn {
     background-color: hotpink;
     color: black;
@@ -216,7 +231,7 @@ footer, .push {
   }
 
   .col {
-    background-color: rgb(75, 69, 69);
+    background-color: rgb(161, 160, 160);
   }
 
   .footer-col {
