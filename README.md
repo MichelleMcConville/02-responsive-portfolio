@@ -85,7 +85,7 @@ For this project the customer request we
 ## Accessibility Standards Validation
 
 Successfully ran code thru [W3C](https://validator.w3.org/) validator for all 3 pages
-![Validation Results](./02-w3c-Success.png)
+![Validation Results](./assets/02-w3c-Success.png)
 
 ---
 
