@@ -22,7 +22,7 @@ For this project the customer request we
    - Use semantic HTML
    - Add a sticky footer w/ sub-rows & columns `(Bonus)`
 
-### <span style="color:red">**NOTE**:</span> Customer has provided images for reference
+### **NOTE**:</span> Customer has provided images for reference
 
 ---
 
@@ -32,31 +32,31 @@ For this project the customer request we
 
 #### 1. Created index.html file **`|`** [**About Me**](https://michellemcconville.github.io/02-responsive-portfolio/index.html) 🔗
 
-- <span style="color:hotpink"> This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
-- <span style="color:hotpink"> Inside the column `<section>` is a `<h1>` header, photo & text about the customer
+- This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
+- Inside the column `<section>` is a `<h1>` header, photo & text about the customer
 
 #### 2. Created portfolio.html file **`|`** [**Portfolio**](https://michellemcconville.github.io/02-responsive-portfolio/portfolio.html) 🔗
 
-- <span style="color:hotpink"> This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
-- <span style="color:hotpink"> Inside the column `<section>` is a `<h1>` header & 2 `<card-decks>`
-- <span style="color:hotpink"> Each `<card-deck>` holds 3 `<cards>` per deck
-- <span style="color:hotpink"> Within each article `<card>` includes a hyperlinked `<img>`, a `<h5>` heading & text about the related site
-- <span style="color:hotpink"> **The last 3 `<cards>` are saved for future updates & the `<card-deck>` and/or `<cards>` can be duplicated for more options if needed**
+- This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
+- Inside the column `<section>` is a `<h1>` header & 2 `<card-decks>`
+- Each `<card-deck>` holds 3 `<cards>` per deck
+- Within each article `<card>` includes a hyperlinked `<img>`, a `<h5>` heading & text about the related site
+- **The last 3 `<cards>` are saved for future updates & the `<card-deck>` and/or `<cards>` can be duplicated for more options if needed**
 
 #### 3. Created contact.html file **`|`** [**Contact**](https://michellemcconville.github.io/02-responsive-portfolio/contact.html) 🔗
 
-- <span style="color:hotpink"> This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
-- <span style="color:hotpink"> Inside the column `<section>` is a `<h1>` header & a `<form>`
-- <span style="color:hotpink"> Within the `<form>` it request person's:
+- This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
+- Inside the column `<section>` is a `<h1>` header & a `<form>`
+- Within the `<form>` it request person's:
   1. Name
   2. Email
   3. Message
   4. Submit Button
-- <span style="color:hotpink"> **The `Submit` button and `Form` functionality will be completed as a later date.**
+- **The `Submit` button and `Form` functionality will be completed as a later date.**
 
 #### 4. Site Wide Components
 
-- <span style="color:orange"> Each page globally encompasses the following:
+- Each page globally encompasses the following:
   - In the `<head>` element, added all the needed `<link>` stylesheets
   - In the `<header>` element, created a sticky `<navbar>` that is collapsible on mobile devices & smaller tablets
   - In the `<footer>` element, created a `<navbar>` that is fixed which contains 2 `<row>` & 2 `<col>` with a copyright symbol & some social media font awesome icons
@@ -78,7 +78,7 @@ For this project the customer request we
 [**Markdown Guide**](https://www.markdownguide.org/) **`|`**
 [**google**](https://www.google.com/) **`|`**
 
-- Added the ` html5doctor.com Reset Style Sheet` by [Richard Clark](http://richclarkdesign.com)
+- Added the [html5doctor.com Reset Style Sheet](http://html5doctor.com/) by [Richard Clark](http://richclarkdesign.com)
 
 ---
 
