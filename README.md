@@ -1,4 +1,4 @@
-# Responsive Portfolio
+# [**Responsive Portfolio**](https://michellemcconville.github.io/02-responsive-portfolio/) 🔗
 
 ## Customer Request
 
@@ -22,7 +22,7 @@ For this project the customer request we
    - Use semantic HTML
    - Add a sticky footer w/ sub-rows & columns `(Bonus)`
 
-#### <span style="color:red">**NOTE**:</span> Customer has provided images for reference
+### <span style="color:red">**NOTE**:</span> Customer has provided images for reference
 
 ---
 
@@ -30,12 +30,12 @@ For this project the customer request we
 
 ### HTML
 
-#### 1. Created index.html file `|` [**About Me**](https://michellemcconville.github.io/02-responsive-portfolio/index.html)
+#### 1. Created index.html file **`|`** [**About Me**](https://michellemcconville.github.io/02-responsive-portfolio/index.html) 🔗
 
 - <span style="color:hotpink"> This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
 - <span style="color:hotpink"> Inside the column `<section>` is a `<h1>` header, photo & text about the customer
 
-#### 2. Created portfolio.html file `|` [**Portfolio**](https://michellemcconville.github.io/02-responsive-portfolio/portfolio.html)
+#### 2. Created portfolio.html file **`|`** [**Portfolio**](https://michellemcconville.github.io/02-responsive-portfolio/portfolio.html) 🔗
 
 - <span style="color:hotpink"> This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
 - <span style="color:hotpink"> Inside the column `<section>` is a `<h1>` header & 2 `<card-decks>`
@@ -43,7 +43,7 @@ For this project the customer request we
 - <span style="color:hotpink"> Within each article `<card>` includes a hyperlinked `<img>`, a `<h5>` heading & text about the related site
 - <span style="color:hotpink"> **The last 3 `<cards>` are saved for future updates & the `<card-deck>` and/or `<cards>` can be duplicated for more options if needed**
 
-#### 3. Created contact.html file `|` [**Contact**](https://michellemcconville.github.io/02-responsive-portfolio/contact.html)
+#### 3. Created contact.html file **`|`** [**Contact**](https://michellemcconville.github.io/02-responsive-portfolio/contact.html) 🔗
 
 - <span style="color:hotpink"> This page contains a `<main>` with a wrapper & a `<row>` containing a `<col>`
 - <span style="color:hotpink"> Inside the column `<section>` is a `<h1>` header & a `<form>`
@@ -73,10 +73,10 @@ For this project the customer request we
 
 ## Sources Referenced
 
-[w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) `|`
-[MDN web docs](https://developer.mozilla.org/en-US/) `|`
-[Markdown Guide](https://www.markdownguide.org/) `|`
-[google](https://www.google.com/) `|`
+[**w3schools**](https://www.w3schools.com/html/html5_semantic_elements.asp) **`|`**
+[**MDN web docs**](https://developer.mozilla.org/en-US/) **`|`**
+[**Markdown Guide**](https://www.markdownguide.org/) **`|`**
+[**google**](https://www.google.com/) **`|`**
 
 - Added the ` html5doctor.com Reset Style Sheet` by [Richard Clark](http://richclarkdesign.com)
 
@@ -84,7 +84,7 @@ For this project the customer request we
 
 ## Accessibility Standards Validation
 
-Successfully ran code thru [W3C](https://validator.w3.org/) validator for all 3 pages
+Successfully ran code thru [**W3C**](https://validator.w3.org/) validator for all 3 pages
 ![Validation Results](./assets/02-w3c-Success.png)
 
 ---
